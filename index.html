@@ -4,12 +4,218 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
+    <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.3.2.js"></script>
+    <script src="pc_js/test.js"></script>
+    <!--Link For JQuery-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Link For Bootstrap-->
+    <link rel="stylesheet" href="pc_css/fullpage.css">
+    <script src="pc_js/fullpage.js"></script>
+    <!--Link For fullpage--> 
+    <link rel="stylesheet" href="pc_css/pc_style.css">
+    <!--Link For CSS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+    <!--Link For GSAP-->
+    
+    <title>Planet Coaster</title>
 </head>
 <body>
-    <h1>Test</h1>
-        <p>
-            hallowd
-        </p>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+    <div class="container-fluid">
+      <img class="logo" src="pc_img/LOGO.png" alt="#">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+            <li class="nav-item">
+                <a class="nav-link"href="#">COASTERS</a>
+            <li>
+            
+            <li class="nav-item">
+                <a class="nav-link"href="#">FLATRIDE</a>
+            <li>
+            
+            <li class="nav-item">
+                <a class="nav-link"href="#">SHOPS</a>
+            <li>        
+            
+            <li class="nav-item">
+                <a class="nav-link"href="#">MANAGMENT</a>
+            <li>
+            
+            <li class="nav-item">
+                    <a class="nav-link"href="#">COASTERS</a>
+            <li>    
+            </ul>
+            <ul class="navbar-nav nav2">
+            <li class="nav-item">
+                <a class="nav-link"href="#"><img src="pc_img/member.png" alt="workshop" style="margin-right: 10px;width:30px;"></a>
+            <li>
+            
+            <li class="nav-item">
+                <a class="nav-link"href="#"><img src="pc_img/steam.png" alt="member" style="width:30px"></a>
+            <li>
+            </ul>    
+        </div>
+    </div>
+        </nav> 
+    </div>
+
+<div id="fullpage">  
+<section class="section" id="slide1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="upper text-center">
+                    <p>CREATE, MANAGE, AND SHAR</p>
+                    <h2>THE WORLD'S GREATEST COASTER PARKS</h2>
+                </div>
+                <div class="lower text-center">
+                    <div>
+                      <a class='btn1' href=''>PC Edtion</a>
+                      <a class='btn2' href=''>Console Edtion</a>
+                    </div>
+                    <div>
+                      <a class='arrow' href=''>
+                        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M23.245 4l-11.245 14.374-11.219-14.374-.781.619 12 15.381 12-15.391-.755-.609z"/></svg>
+                      </a>
+                      
+                    </div>
+                  </div>
+
+                
+            </div>
+        </div>
+            
+    </div>
+
+   
+
+
+</section>
+
+<section class="section" id="slide2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="upper text-center">
+                    <p>CREATE, MANAGE, AND SHAR</p>
+                    <h2>THE WORLD'S GREATEST COASTER PARKS</h2>
+                </div>
+                <div class="lower text-center">
+                    <div>
+                      <a class='btn1' href=''>PC Edtion</a>
+                      <a class='btn2' href=''>Console Edtion</a>
+                    </div>
+                    <div>
+                      <a class='arrow' href=''>
+                        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M23.245 4l-11.245 14.374-11.219-14.374-.781.619 12 15.381 12-15.391-.755-.609z"/></svg>
+                      </a>
+                      
+                    </div>
+                  </div>
+
+                
+            </div>
+        </div>
+            
+    </div>
+
+   
+
+
+</section>
+
+
+<section class="section" id="slide3">
+
+    <div class="container">
+        <div class="row">
+            <div class="box">
+                <div class="card" id="card1">
+                    <div class="circle" style="background-color: rgb(255, 196, 35);">
+                        <h1>
+                            01
+                        </h1>
+    
+                    </div>
+                    <div class="content">
+                        
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit suscipit, dolores odio quis laudantium quos nemo quaerat, similique illo voluptatem eum doloribus ratione. Eveniet, impedit explicabo iste tempora similique corrupti.
+                        </p>
+                        <a href="#" style="background-color: rgb(255, 196, 35);">
+                            Read More
+                            
+                        </a>
+    
+                    </div>
+                    
+                </div>
+                <div class="card" id="card2">
+                    <div class="circle" style="background-color: rgb(255, 35, 35);">
+                        <h1>
+                            02
+                        </h1>
+    
+                    </div>
+                    <div class="content">
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit suscipit, dolores odio quis laudantium quos nemo quaerat, similique illo voluptatem eum doloribus ratione. Eveniet, impedit explicabo iste tempora similique corrupti.
+                        </p>
+                        <a href="#" style="background-color: rgb(255, 35, 35);">
+                            Read More
+                            
+                        </a>
+    
+                    </div>
+                    
+                </div>
+                <div class="card" id="card3">
+                    <div class="circle" style="background-color: rgb(35, 123, 255);">
+                        <h1>
+                            03
+                        </h1>
+    
+                    </div>
+                    <div class="content">
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit suscipit, dolores odio quis laudantium quos nemo quaerat, similique illo voluptatem eum doloribus ratione. Eveniet, impedit explicabo iste tempora similique corrupti.
+                        </p>
+                        <a href="#" style="background-color: rgb(35, 123, 255);">
+                            Read More
+                            
+                        </a>
+    
+                    </div>
+                    
+                </div>
+            </div>
+            
+    
+        </div>
+    </div>
+    
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col_md_8">
+                <div class="footer">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 </body>
 </html>
