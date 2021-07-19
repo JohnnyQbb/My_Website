@@ -8,7 +8,6 @@ $(document).ready(function() {
 
 }); 
 
-onLeave
 
 document.addEventListener("DOMContentLoaded",function() {
 	
